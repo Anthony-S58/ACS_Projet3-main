@@ -28,7 +28,18 @@
             <br>
             <form action="validation.php" method="Post">
 
+<?php
 
+$getid=$_GET['ID'];
+
+var_dump($getid);
+?>
+
+<?php
+                echo '<input type="hidden" value="'.$getid.'" name="ID">';
+
+        
+?>
 
                 <label>Date de l'intervention :</label>
                 <input type="date" name="date">

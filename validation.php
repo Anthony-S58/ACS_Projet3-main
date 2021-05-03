@@ -25,6 +25,9 @@ $bdd->exec("UPDATE amp SET Date_changement='$date', Etage='$etage', Position_amp
 
 
 
-
+echo ("<script LANGUAGE='JavaScript'>
+    window.alert('modif ok');
+    window.location.href='index.php';
+    </script>");
 
 ?>
