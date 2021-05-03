@@ -41,7 +41,7 @@ input:invalid {
   }
 
   a {
-
+      
     color: white;
   }
 
@@ -62,6 +62,15 @@ input:invalid {
     ;
     
   }
+.modif{
+
+  background:green;
+}
+
+.suppr {
+  background:red;
+}
+
 
   
 
