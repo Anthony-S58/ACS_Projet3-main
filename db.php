@@ -50,7 +50,7 @@ while ($data = $reponse->fetch())
     <?php echo'<td>'. $data['Etage']. '</td>'; ?> &nbsp;
     <?php echo'<td>'. $data['Position_ampoule']. '</td>'; ?> &nbsp;
     <?php echo'<td>'. $data['Prix_ampoule']. '</td>'; ?>
-    <?php echo'<td> <button class="modif"><a href="modifier.php?ID='. $data['ID'].'">Modifier</a> </button> / <button class="suppr"><a href="supprimer.php?ID='. $data['ID']. '"  class=>Supprimer</a></button> </td>';  ?> <br>
+    <?php echo'<td> <button class="modif" onclick="return confirm(\'voulez-vous modifier?\')"><a href="modifier.php?ID='. $data['ID'].'">Modifier</a> </button> / <button class="suppr" onclick="return confirm(\'voulez-vous supprimer?\')"><a href="supprimer.php?ID='. $data['ID']. '"  class=>Supprimer</a></button> </td>';  ?> <br>
     <?php echo '</tr>';
 }
 
