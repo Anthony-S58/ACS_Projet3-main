@@ -21,7 +21,7 @@
 <section>
         <div class="formulaire">
 
-            <h2>Formulaire de gestion des ampoules</h2>
+            <h2 contenteditable="true">Formulaire de gestion des ampoules</h2>
             <br>
             <form action="edit.php" method="Post">
 
@@ -68,7 +68,8 @@
 
             <br><br>
 
-                <input type="submit" value="Déclarer">
+                <input class="valider" type="submit" value="Déclarer">
+           
 
             </form>
 
