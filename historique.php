@@ -49,7 +49,7 @@
 
     </table>
 
-    <p><a href="index.php"> Ajouter </a></p>
+    <p><a class="add" href="formulaire.php"> Ajouter </a></p>
 
 
    

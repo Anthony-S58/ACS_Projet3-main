@@ -113,5 +113,28 @@ img:hover {
   }
 
  
+.connexion label{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  font-size:2em;
+}
 
+.connexion input {
+  height:50px;
+  width:300px;
+  justify-content: center;
+  font-size:2em;
   
+}
+
+.connexion {
+  height:500px;
+}
+
+
+.user{
+  background:rgb(55, 158, 255);
+  
+}
+

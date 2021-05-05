@@ -16,7 +16,7 @@ catch (Exception $e)     // Si il y a une erreur
 
    echo ("<script LANGUAGE='JavaScript'>
     window.alert('Ajout effectué');
-    window.location.href='index.php';
+    window.location.href='historique.php';
     </script>");
 
 ?>
