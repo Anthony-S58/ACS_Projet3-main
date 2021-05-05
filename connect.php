@@ -10,33 +10,42 @@
 </head>
 <body>
 
-    
 <!-- HEADER -->
+<?php
+
+
+$name=$_POST['user'];
+$password=$_POST['password'];
+
+?>
+
 
     <div class="titre">
                
              <h1>Avec <IMG src="IMG/ampoule2.png">  gérer vos ampoules devient cool</h1>
     </div>
-    <br>
+    <br><br><br><br><br>
 <!-- Section -->
 <section>
-        <div class="connexion">
+       
 
-            <form action="connect.php" method="Post">
+<?php
+if($name=='Anthony' && $password=='Admin') {
+    ('location:formulaire.php');
+    echo '<span class="welcome">Bienvenue '. $name. ' !</span>';
 
-            <label>Nom d'utilisateur :</label>
-            <input type="text" name="user" required>
+}else header('location:index.php');
 
+?>
 
+</section>
+<br><br><br><br><br><br><br><br>
+<footer>
+            <a href="formulaire.php"><h2>Accéder au formulaire</h2></a>
+<br>
+            <a href="historique.php"><h2>Voir l'historique des changements</h2></a>
+            
+</footer>
 
-            <label>Mot de passe :</label> 
-            <input type="password" name="password" required>
-
-<br><br>
-
-            <input class="user" type="submit" value="Connexion">
-
-
-        </div>
 </body>
 </html>

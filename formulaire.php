@@ -11,27 +11,8 @@
 <body>
 
 <!-- HEADER -->
-<?php
 
 
-$name=$_POST['user'];
-$password=$_POST['password'];
-
-?>
-
-<?php
-if($name=='Anthony' && $password=='Admin') {
-    ('location:formulaire.php');
-    echo 'Bienvenue '. $name;
-
-}else header('location:index.php');
-
-    
-    
-
-
-
-?>
     <div class="titre">
                
              <h1>Avec <IMG src="IMG/ampoule2.png">  gérer vos ampoules devient cool</h1>
@@ -74,7 +55,7 @@ if($name=='Anthony' && $password=='Admin') {
                 <label>Position de l'ampoule :</label>
                 <select name="position" id="position" >
 
-                    <option value="">Indiquez la position de l'ampoule</option>
+                    <option value="">Indiquez la position</option>
                     <option value="droite">Droite</option>
                     <option value="gauche">Gauche</option>
                     <option value="fond">Fond</option>
@@ -100,7 +81,7 @@ if($name=='Anthony' && $password=='Admin') {
 <footer>
 
             <a href="historique.php"><h2>Voir l'historique des changements</h2></a>
-            <!-- <a href="db.php"><h2>Voir la base de données</h2></a> -->
+            
 </footer>
 
 </body>
