@@ -38,7 +38,7 @@
 
                 <tr>
                     <th>ID</th>
-                    <th>Date_changement</th>
+                    <th>Date</th>
                     <th>Etage</th>
                     <th>Position</th>
                     <th>Prix(€)</th>
