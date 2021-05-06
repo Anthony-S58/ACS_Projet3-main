@@ -1,131 +1,29 @@
+/* Font de la page */
+
 @import url('https://fonts.googleapis.com/css2? family = Itim & display = swap');
 
+/* Page complète */
+
 html {
+
     background: #141d44;
     font-family:'Itim', cursive;
-}
-
-body {
-    
-    display:flex;
-    text-align: center;
-    justify-content: center;
-    color:white;
-    flex-direction: column;
-}
-
-.titre {
-font-size: 2.5em;
 
 }
 
+/* Page de connexion */
 
-.formulaire {
-    display: flex;
-    align-content: center;
-    justify-content: space-around;
-    flex-direction: column;
-    
-   
-}
-
-input {
-    color: black;
-    border-radius:15px;
-}
-
-input:invalid {
-    border: 2px solid red;
-  }
-  
-  input:valid {
-    border: 1px solid black;
-  }
-
-  input:hover {
-background : #EFDB8B   
-}
- 
-.welcome {
-
-  font-size:5em;
-}
-
-
-  select {
-     border-radius:15px;
-   }
- 
- .valider {
-   border: 2px solid #EFDB8B
- }
-
- select:hover {
-   
-  background: #EFDB8B;
-    }
-
-  h2 {
-    font-size:2em;
-  }
-
-  a {
-    color: white;
-  }
-
- 
-  th {
-
-    border: 1px solid grey;
-    
-  }
-
-  td {
-
-    border: 1px solid grey;
-    
-  }
-  tr:hover{
-    background-color: #06070c85;
-    ;
-    
-  }
-.modif{
-
-  background:green;
-  border-radius:15px;
-  border:none;
-}
-
-.suppr {
-  background:red;
-  border-radius:15px;
-  border:none;
-}
-  
-
-img:hover {
-  
-  background-image: url(IMG/ampoule.png);
-
-  animation: ampoule 2s ease 2s infinite normal forwards;
-}
- 
-
-  table {
-
-    border-collapse: collapse;
-  }
-
- 
 .connexion label{
+
   display: flex;
   text-align: center;
   flex-direction: column;
   font-size:2em;
+
 }
 
 .connexion input {
+
   height:50px;
   width:300px;
   justify-content: center;
@@ -134,47 +32,203 @@ img:hover {
 }
 
 .connexion {
+
   height:500px;
+
 }
 
 
 .user{
+
   background:rgb(55, 158, 255);
   
 }
 
-.add {
-  background:rgb(55, 158, 255);
-  border-radius: 15px;
-  width:80px;
-  height:30px;
-  font-size: 1.2em;
-  border:none;
+.welcome {
+
+  font-size:5em;
+
+}
+
+/* Body */
+
+    /* Header */
+
+      .titre {
+
+        font-size: 2.5em;
+      
+      }
+
+      img:hover {
+
+        background-image: url(IMG/ampoule.png);
+    
+      }
+
+  body {   
+
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    color:white;
+    flex-direction: column;
+
+  }
+
+  h2 {
+
+    font-size:2em;
   
-}
-.add:hover {
+  }
+
+    /* Formulaire */
+
+    .formulaire {
+
+      display: flex;
+      align-content: center;
+      justify-content: space-around;
+      flex-direction: column;
+
+    }
+
+    input { 
+
+      color: black;
+      border-radius:15px;
+
+    }
+
+    input:invalid {
+
+      border: 2px solid red;
+
+    }
+
+    input:valid {
+
+      border: 1px solid black;
+
+      }
+
+    input:hover {
+
+      background : #EFDB8B   
+
+    }
+
+    select {
+
+      border-radius:15px;
+
+    }
+    select:hover { 
+
+      background: #EFDB8B;
+
+    }
+ 
+    .valider {
+
+      border: 2px solid #EFDB8B;
+      background:rgb(55, 158, 255);
+      border-radius: 15px;
+      width:100px;
+      height:30px;
+      font-size: 1.2em;
+      color:white;
+
+    }
+    .valider:hover {
    
-  background: #EFDB8B;
-}
+      background: #EFDB8B;
+      color:black;
 
-.add a:hover {
-  color:black;
-}
+    }
 
-.valider {
-  background:rgb(55, 158, 255);
-  border-radius: 15px;
-  width:100px;
-  height:30px;
-  font-size: 1.2em;
-  color:white;
+  /* Tableau */
 
-}
-.valider:hover {
-   
-  background: #EFDB8B;
-  color:black;
-}
+      th {
+
+        border: 1px solid grey;
+
+      }
+
+      td {
+
+        border: 1px solid grey;
+
+      }
+
+      tr:hover{
+
+        background-color: #06070c85;
+
+      }
+
+      .modif{
+
+        background:green;
+        border-radius:15px;
+        border:none;
+
+      }
+
+      .suppr {
+
+        background:red;
+        border-radius:15px;
+        border:none;
+
+      }
+  
+      table {
+
+        border-collapse: collapse;
+
+      }
+
+      .add {
+
+        background:rgb(55, 158, 255);
+        border-radius: 15px;
+        width:80px;
+        height:30px;
+        font-size: 1.2em;
+        border:none;
+        
+      }
+      .add:hover {
+         
+        background: #EFDB8B;
+      
+      }
+      
+      .add a:hover {
+      
+        color:black;
+      
+      }
+      
+
+    /* Footer */
+
+    a {
+
+      color: white;
+
+    }
+
+
+
+ 
+
+
+
+
+
+  
 
 
 

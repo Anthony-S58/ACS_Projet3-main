@@ -12,6 +12,15 @@
 
     <body>
 
+                <!-- Récupération message d'erreur si mauvais identifiants -->
+
+            <?php
+            if(!empty($_GET['message'])) {
+            $message = $_GET['message'];
+            $message = 'Nom d\'utilisateur ou Mot de passe invalide';
+             echo $message;}
+            ?>
+
             <!-- HEADER -->
 
             <div class="titre">
